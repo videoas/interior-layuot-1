@@ -1,0 +1,43 @@
+/*defaul styles*/
+nav#top-nav
+{
+  background-color: #272727;
+  height:100px;
+
+}
+
+nav#top-nav>div:first-child
+{
+  float: left;
+}
+nav#top-nav>div
+{
+  float: right;
+  color:white;
+
+}
+nav#top-nav>div>ul>li,
+nav#top-nav h3,
+nav#top-nav .logo
+{
+  float: left;
+  color:white;
+
+}
+nav#top-nav small
+{
+  display: block;
+  color:white;
+}
+
+nav#top-nav>div>ul>li>a
+{
+  color:white;
+  padding: 30px;
+
+}
+nav#top-nav>div span a
+{
+  color:white;
+    padding: 30px;
+}
