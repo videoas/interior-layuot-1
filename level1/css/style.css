@@ -2,13 +2,16 @@
 nav#top-nav
 {
   background-color: #272727;
-  height:100px;
+  height:92px;
 
 }
 
 nav#top-nav>div:first-child
 {
   float: left;
+  padding-top: 28px;
+  padding-left: 64px;
+
 }
 nav#top-nav>div
 {
@@ -17,27 +20,117 @@ nav#top-nav>div
 
 }
 nav#top-nav>div>ul>li,
-nav#top-nav h3,
+nav#top-nav h3,h1
 nav#top-nav .logo
 {
   float: left;
-  color:white;
+  font-size: 18px;
 
 }
+
 nav#top-nav small
 {
-  display: block;
-  color:white;
-}
-
-nav#top-nav>div>ul>li>a
-{
-  color:white;
-  padding: 30px;
+    display: block;
 
 }
-nav#top-nav>div span a
+nav#top-nav>div>ul>li:only-child>a
 {
   color:white;
-    padding: 30px;
+  padding-right:55px;
+  padding-top: 32px;
+  font-size: 24px;
+}
+
+nav#top-nav>div:nth-child(3)>ul
+{
+  padding-right: 105px;
+  padding-top: 20px;
+}
+
+nav#top-nav>div:nth-child(3)>ul>li>a
+{
+  color:white;
+  padding: 15px;
+}
+nav#top-nav>div:nth-child(4)
+{
+  padding-right:110px;
+  padding-top: 38px;
+  }
+  nav#top-nav>div:nth-child(4)>span>a
+  {
+    color: white;
+
+  }
+
+nav#top-nav>div h3 a
+{
+  color:white;
+}
+/**********************************************************************************/
+section#font-carousel
+{
+  background-color: #272727;
+
+}
+
+section#font-carousel>div>div>img
+{
+   position: relative;
+  padding-left: 4em;
+padding-bottom: 3em;
+   width:75em;
+   height: 31em;
+   border:2em;
+}
+
+section#font-carousel>div>div>ul>li
+{
+  float: right;
+  padding-right:10px;
+  font-size: 7px;
+  bottom:50px;
+  right: 50px;
+}
+section#font-carousel>div>div>ul>li:nth-child(1) a
+{
+  border-right:30px solid yellow;
+}
+section#font-carousel>div>div>ul>li:nth-child(2) a
+{
+  border-right:30px solid yellow;
+}
+section#font-carousel>div>div>ul>li:nth-child(3) a
+{
+  border-right:30px solid yellow;
+}
+section#font-carousel>div>div:nth-child(2)
+{
+  position: absolute;
+  width: 132px;
+  height: 302px;
+  border: 2px solid yellow;
+ top: 120px;
+ left: 423px;
+
+}
+section#font-carousel>div>h4
+{
+  position: absolute;
+  color: white;
+  top: 177px;
+  padding-left: 464px;
+
+  }
+
+section#font-carousel>div>h1
+{
+  position: absolute;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 157px;
+  width: 20%;
+  top: 203px;
+  left: 306px;
+  font-size: 45px;
 }
