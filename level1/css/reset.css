@@ -2,6 +2,19 @@ body
 {
   font-family:Arial;
   font-size: 16px;
+  scrollbar-face-color:#5997CA;
+
+  scrollbar-shadow-color: #ffffff;
+
+  scrollbar-highlight-color: #ffffff;
+
+scrollbar-3dlight-color: #5997CA;
+
+           scrollbar-darkshadow-color: #5997CA;
+
+           scrollbar-track-color: #F6F6F6;
+
+           scrollbar-arrow-color: #F6F6F6;
 }
 body,h1,h2,h3,h4,ul,p
 {
