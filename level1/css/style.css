@@ -3,9 +3,11 @@
 nav#top-nav
 {
    background-color: #272727;
-  height:92px;
-
-}
+   height:92px;
+   width:100%;
+   z-index: 1;
+   position: fixed;
+ }
 
 nav#top-nav>div:first-child
 {
